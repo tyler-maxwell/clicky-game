@@ -1,0 +1,22 @@
+.card {
+  background: #fff;
+  border-color: lightgrey;
+  border-width: 5px;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  margin: 1rem;
+  position: relative;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card > img {
+  height: 100%;
+  width: 100%;
+}
